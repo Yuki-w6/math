@@ -13,7 +13,6 @@ for i in range(0, n):
     if p > q:
         p, q = q, p
         
-
     while q % p != 0:
         q = q % p
         p, q = q, p
